@@ -121,7 +121,7 @@
 <span class="material-symbols-outlined text-indigo-700 cursor-pointer hover:scale-95 transition-all">menu</span>
 <h1 class="text-xl font-headline font-black uppercase tracking-widest text-slate-900">The Curator</h1>
 </div>
-<nav class="hidden md:flex gap-8">
+<nav class="hidden md:flex gap-8" aria-label="Main Menu">
 <a class="text-indigo-700 font-bold border-b-2 border-indigo-700 transition-colors duration-300" href="#home">Portfolio</a>
 <a class="text-slate-500 font-medium hover:text-indigo-600 transition-colors duration-300" href="#about">About</a>
 <a class="text-slate-500 font-medium hover:text-indigo-600 transition-colors duration-300" href="#services">Services</a>
@@ -145,10 +145,10 @@
                         Merging architectural precision with fluid digital interactions to curate world-class brand ecosystems.
                     </p>
 <div class="flex flex-wrap gap-4">
-<a href="Jesiah_Catindig_Resume.pdf" target="_blank"><button class="px-8 py-4 bg-gradient-to-r from-primary to-primary-container text-on-primary rounded-xl font-bold editorial-shadow hover:-translate-y-0.5 transition-all">
+<a href="Jesiah_Catindig_Resume.pdf" target="_blank" aria-label="Resume"><button class="px-8 py-4 bg-gradient-to-r from-primary to-primary-container text-on-primary rounded-xl font-bold editorial-shadow hover:-translate-y-0.5 transition-all">
                             View Resume
                         </button></a>
-<button class="px-8 py-4 bg-surface-container-lowest border border-outline-variant/20 text-on-surface rounded-xl font-bold hover:bg-surface-container-low transition-all">
+<button class="px-8 py-4 bg-surface-container-lowest border border-outline-variant/20 text-on-surface rounded-xl font-bold hover:bg-surface-container-low transition-all" aria-label="Methodology">
                             The Methodology
                         </button>
 </div>
@@ -161,7 +161,7 @@
 </div>
 </section>
 <!-- About Me Section -->
-<section class="py-32 px-6 bg-surface-container-low" id="about">
+<section class="py-32 px-6 bg-surface-container-low" id="about" aria-label="About Me">
 <div class="container mx-auto">
 <div class="grid md:grid-cols-2 gap-24 items-center">
 <div class="relative">
@@ -193,7 +193,7 @@
 </div>
 </section>
 <!-- Selected Projects Section -->
-<section class="py-32 px-6 bg-surface">
+<section class="py-32 px-6 bg-surface" aria-label="Projects">
 <div class="container mx-auto">
 <div class="flex justify-between items-end mb-20">
 <div>
@@ -201,9 +201,9 @@
 <h3 class="font-headline text-5xl font-bold tracking-tighter">Case Studies</h3>
 </div>
 <div class="hidden md:block">
-<button class="group flex items-center gap-2 font-bold text-primary">
+<button class="group flex items-center gap-2 font-bold text-primary" aria-label="View All Projects">
                             View All Projects 
-                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                            <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" aria-label="More">arrow_forward</span>
 </button>
 </div>
 </div>
@@ -250,7 +250,7 @@
 </div>
 </section>
 <!-- Services Section -->
-<section class="py-32 px-6 bg-surface-container-low" id="services">
+<section class="py-32 px-6 bg-surface-container-low" id="services" aria-label="Services">
 <div class="container mx-auto">
 <div class="text-center mb-24 max-w-2xl mx-auto">
 <h3 class="font-headline text-5xl font-bold mb-6">Service Matrix</h3>
@@ -262,7 +262,7 @@
 <span class="material-symbols-outlined text-primary group-hover:text-on-primary text-4xl mb-8">architecture</span>
 <h4 class="font-headline text-2xl font-bold mb-4 group-hover:text-on-primary transition-colors">Information Architecture</h4>
 <p class="text-secondary group-hover:text-primary-fixed mb-8 transition-colors">Structuring complex data systems into intuitive, navigable experiences that users love.</p>
-<ul class="space-y-3 font-label text-xs uppercase tracking-widest group-hover:text-on-primary">
+<ul class="space-y-3 font-label text-xs uppercase tracking-widest group-hover:text-on-primary" aria-label="Information Architecture-related Services">
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> User Flows</li>
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> Sitemapping</li>
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> Taxonomy</li>
@@ -273,7 +273,7 @@
 <span class="material-symbols-outlined text-primary group-hover:text-on-primary text-4xl mb-8">palette</span>
 <h4 class="font-headline text-2xl font-bold mb-4 group-hover:text-on-primary transition-colors">Interface Design</h4>
 <p class="text-secondary group-hover:text-primary-fixed mb-8 transition-colors">High-fidelity visual systems that balance brand identity with modern aesthetics.</p>
-<ul class="space-y-3 font-label text-xs uppercase tracking-widest group-hover:text-on-primary">
+<ul class="space-y-3 font-label text-xs uppercase tracking-widest group-hover:text-on-primary" aria-label="Interface Design-related Services">
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> Design Systems</li>
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> Prototypes</li>
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> Iconography</li>
@@ -284,7 +284,7 @@
 <span class="material-symbols-outlined text-primary group-hover:text-on-primary text-4xl mb-8">bolt</span>
 <h4 class="font-headline text-2xl font-bold mb-4 group-hover:text-on-primary transition-colors">Interaction Strategy</h4>
 <p class="text-secondary group-hover:text-primary-fixed mb-8 transition-colors">Movement and micro-interactions that breathe life into static screens.</p>
-<ul class="space-y-3 font-label text-xs uppercase tracking-widest group-hover:text-on-primary">
+<ul class="space-y-3 font-label text-xs uppercase tracking-widest group-hover:text-on-primary"  aria-label="Interaction Strategy-related Services">
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> Motion Design</li>
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> Usability Testing</li>
 <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 bg-primary group-hover:bg-on-primary"></div> Web Accessibility</li>
@@ -300,7 +300,7 @@
 <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/20 to-transparent opacity-50"></div>
 <h3 class="font-headline text-5xl md:text-7xl font-bold text-surface mb-8 relative z-10 tracking-tighter">Ready to curate your vision?</h3>
 <p class="text-primary-fixed text-xl max-w-2xl mx-auto mb-12 relative z-10 font-body">Let's collaborate to build a digital experience that resonates and performs.</p>
-<button class="relative z-10 px-12 py-6 bg-surface text-on-background font-black uppercase tracking-widest rounded-full hover:scale-105 active:scale-95 transition-all editorial-shadow">
+<button class="relative z-10 px-12 py-6 bg-surface text-on-background font-black uppercase tracking-widest rounded-full hover:scale-105 active:scale-95 transition-all editorial-shadow" aria-label="Contact">
                         Start a Conversation
                     </button>
 </div>
@@ -308,7 +308,7 @@
 </section>
 </main>
 <!-- Footer Shell -->
-<footer class="w-full py-12 px-6 mt-auto bg-slate-100 flex flex-col items-center text-center gap-6">
+<footer class="w-full py-12 px-6 mt-auto bg-slate-100 flex flex-col items-center text-center gap-6" aria-label="Footer">
 <div class="font-headline font-bold text-slate-900 text-2xl">The Digital Curator</div>
 <div class="flex gap-8">
 <a class="font-manrope text-xs tracking-wider uppercase text-slate-500 hover:text-indigo-700 transition-all" href="#">LinkedIn</a>
